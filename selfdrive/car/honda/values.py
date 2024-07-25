@@ -168,7 +168,7 @@ class CAR(Platforms):
     flags=HondaFlags.BOSCH_RADARLESS,
   )
   HONDA_HRV_EHEV = HondaBoschPlatformConfig(
-    [HondaCarDocs("Honda HR-V eHev 2023", "All")],
+    [HondaCarDocs("HONDA HR-V EHEV 2022", "All")],
     CarSpecs(mass=3125 * CV.LB_TO_KG, wheelbase=2.61, steerRatio=15.2, centerToFrontRatio=0.41, tireStiffnessFactor=0.5),
     dbc_dict('honda_civic_ex_2022_can_generated', None),
     flags=HondaFlags.BOSCH_RADARLESS,
